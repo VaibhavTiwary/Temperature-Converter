@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(241, 241, 115);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15% 0;
+    height: 200px;
+    width: 600px;
+}
+#initialvalue{
+    font-size: 15px;
+    padding: 3px;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+button{
+    background-color: black;
+    padding: 5px 9px;
+    font-size: 13px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    margin-top: 5px;
+}
+#select{
+    margin-top: 5px;
+}
